@@ -1,0 +1,24 @@
+{
+  "name": "vmmanager",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000V\u0000M\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arhamaion/VMManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arhamaion/VMManager/issues"
+  },
+  "homepage": "https://github.com/arhamaion/VMManager#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  }
+}
