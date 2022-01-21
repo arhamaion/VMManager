@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
 const port = 5522
-app.use(()=>{
+app.use((req, res, next)=>{
   console.log("Received Hit");
+  next();
 })
 app.set('view engine', 'ejs')
 
